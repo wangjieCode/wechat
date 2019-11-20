@@ -29,7 +29,8 @@
         // }, 1000);
         start.onclick = function() {
             container.className += "end"
-            document.querySelector(".inner").className += " inner-end"
+            document.querySelector(".inner").className += " inner-end";
+            start.style.display = 'none';
         }
 
         window.onload = function() {

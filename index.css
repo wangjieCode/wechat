@@ -4,8 +4,9 @@
 	}
 	
 	.button {
-	    font-size: 30px;
+	    font-size: 50px;
 	    position: fixed;
+	    transform: translate(-50%, -50%);
 	    top: 50%;
 	    left: 50%;
 	}
@@ -14,7 +15,7 @@
 	    position: fixed;
 	    top: 50%;
 	    left: 50%;
-	    font-size: 50px;
+	    font-size: 80px;
 	    animation-delay: 1.2s;
 	    transform: translate(-50%, -50%) scale(0);
 	}
@@ -26,7 +27,7 @@
 	
 	.end {
 	    height: 100vh;
-	    transition: all 1.2s linear;
+	    transition: all .8s linear;
 	    transform-origin: 50% 50%;
 	    transform: scale(0);
 	}
